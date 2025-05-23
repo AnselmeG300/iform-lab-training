@@ -111,8 +111,4 @@ resource "azurerm_linux_virtual_machine" "iform-vm" {
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }
-
-  tags = {
-    environment = "my-iform-env"
-  }
 }
